@@ -10,7 +10,7 @@ This Chrome extension uses a machine learning model based on the Naive Bayes alg
 ## Installation
 
 1. **Prerequisites**
-   - Python 3.8 or higher (for running Flask server)
+   - Python 3.10.10
    - Required Libraries:
      - `node`
      - `python3`
@@ -68,5 +68,10 @@ The extension will display:
 * Requires PTLB (punkt, stopword, wordnet) NLTK packages
 * Runs locally using Flask backend
 
+## Known Issues
+- Initial model training and deployment may require additional optimization for performance.
+- Limited testing has been conducted on edge cases; further validation is recommended.
 
+## Contributors
+The project was developed by Team LiveANet
 
